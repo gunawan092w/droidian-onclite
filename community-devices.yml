@@ -1,0 +1,13 @@
+.xiaomi_onclite_packages:
+  packages: &xiaomi_onclite_packages
+    - adaptation-droidian-onclite
+    - adaptation-onclite-configs
+
+xiaomi_onclite:
+  type: image
+  arch: arm64
+  edition: phosh
+  variant: phone
+  apilevel: 28
+
+  packages: *xiaomi_onclite_packages
