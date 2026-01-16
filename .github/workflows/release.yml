@@ -8,7 +8,7 @@ on:
 
 jobs:
   once:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     name: Generate matrix
     outputs:
       matrix: ${{ steps.gen-matrix.outputs.matrix }}
